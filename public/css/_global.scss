@@ -1,0 +1,68 @@
+$primaryLight:#756DD4; 
+$primarydark:#242327;
+$secLight:#9A94DF;
+$secDark:#ADA3A3;
+$textLight:#fff;
+$textDark:#000;
+$accentLight:#FF6584;
+$accentDark:#3624A4;
+$bgLight:#fff;
+$bgDark:#69696C;
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+body {
+    
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #4d4a4a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #665df5;
+}
+main {
+    flex: 1 0 auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  button {
+    cursor: pointer;
+  }
